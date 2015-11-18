@@ -20,7 +20,7 @@ public class Palindrome {
 		
 		while(beginPtr<=endPtr && (in.charAt(beginPtr++) == in.charAt(endPtr--))) ;
 		
-		if(in.charAt(beginPtr) == in.charAt(endPtr) && beginPtr>=endPtr)
+		if(in.charAt(beginPtr) == in.charAt(endPtr) && beginPtr>endPtr)
 			return true;
 		
 		return false;
