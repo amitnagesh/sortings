@@ -3,7 +3,7 @@ package Sorting.com.algorithms.examples.sortings;
 public class InsertionSort {
 
 	/**
-	 * Algorithm for insertion sort
+	 * Algorithm for insertion sort logic
 	 *  
 	 */
 

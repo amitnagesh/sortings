@@ -4,13 +4,18 @@ public class Palindrome {
 	
 	public static void main(String args[]){
 		
-		String input[]  = {"abccba1", "a" , "abc" , "aabcc", "aaa" , "abcdeffedcba", "aaaaaaaaaaabbaaaaaaaaaaa", null, "", "baabaa"};
+		String input[]  = {"abccba1", "a" , "abc" , "aabcc", "aaa" , "abcdeffedcba", "aaaaaaaaaaabbaaaaaaaaaaa", null, "", "baabaa", "baabaab" };
 		
 		for(String str: input){
 			System.out.println( str + " is palindrome :" + isPalindrome(str));
 		}
 	}
-	
+
+	/**
+	 * Verify isPalindrome or not
+	 * @param in
+	 * @return boolean
+	 */
 	public static boolean isPalindrome(String in) {
 
 		if(in==null || in.length()==0 || in.length()==1)
