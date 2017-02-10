@@ -28,7 +28,7 @@ public class Palindrome {
 		if(in.charAt(beginPtr) == in.charAt(endPtr) && beginPtr>endPtr)
 			return true;
 		
-		return false;
+		return false; 
 
 	}
 
