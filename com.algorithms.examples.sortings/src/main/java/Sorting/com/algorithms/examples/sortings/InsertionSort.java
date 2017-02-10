@@ -25,13 +25,11 @@ public class InsertionSort {
 		}
 
 		System.out.println("***************");
-		System.out.println("***************");
 		for(int k=0; k<input.length; k++){
 			System.out.print(input[k] + " " );
 		}
 		
 		System.out.println("");
-		System.out.println("***************");
 		System.out.println("***************");
 
 		return input;
